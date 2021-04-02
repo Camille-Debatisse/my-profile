@@ -1,0 +1,106 @@
+/* Colors and fonts */
+
+body {
+background-color: #fff2f2;
+font-family: 'Merriweather', serif;
+font-size: 16px;
+color: 	#707070;
+}
+
+/* Custom design with class */
+
+.card-white {
+				background: white;
+				padding: 30px;
+	 			border-radius: 8px;
+				box-shadow: 0 15px 35px rgba(50,50,93,.1);
+				margin: 30px auto;
+				text-align: justify;>
+}
+
+#introduction {
+	text-align: center;
+}
+#introduction p {
+	margin-top: 34px;
+	margin-bottom: 40px;
+}
+
+#conclusion {
+	text-align: center;
+}
+
+#art p {
+	margin-bottom: 40px;	
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: #EC3D6D;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 6px;
+}
+.btn-pink:hover {
+	background-color: #FFB7C5;
+	color: white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 9px;
+}
+.list-horizontal i {
+	font-size: 50px
+}
+
+.container {
+	width: 800px;
+	margin: 50px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 44px;
+	color: 	#EC3D6D;
+}
+
+h2{
+	color: 	#e36bae; 
+	font-size: 26px;
+	font-family: 	font-family: 'Merriweather', serif;
+	font-weight: lighter; 
+}
+
+a {
+	text-decoration: none;
+	color: #EC3D6D; 
+	font-weight: 	bold;	
+}
+
+a:hover {
+	color: #FFB7C5;
+}
+
+div {
+	background-color: 	
+}
